@@ -30,13 +30,12 @@ class SwooleServer extends Command
     protected $description = 'SwooleServer';
 
     /**
-     * swoole_server对象
+     * swoole_server
      * @var
      */
     protected $serv;
 
     /**
-     * 获取参数
      *
      * @return array
      */
@@ -71,7 +70,7 @@ class SwooleServer extends Command
     }
 
     /**
-     * swoole_server监听服务
+     * swoole_server
      */
     private function start()
     {
@@ -106,6 +105,8 @@ class SwooleServer extends Command
 
     public function onReceive(\swoole_server $server, $descriptors, $fromId, $data)
     {
+        dump($data);
+        die;
         $sent = $this->send($data);
         if (!is_array($sent)) {
             dump("success");
@@ -129,17 +130,15 @@ class SwooleServer extends Command
         try {
             Mail::send('email.comment', ["recvTitle" => $recvTitle, "recvContent" => $recvContent],
                 function ($message) use ($businessAdr, $userAdr, $recvTitle, $recvContent, $template) {
-                    //是否需要发送附件
                     if (!empty($template)) {
                         foreach ($template as $path) {
                             $message->attach($path);
                         }
                     }
 
-                    //发送给买家
                     $message->to($userAdr);
                     $message->subject($recvTitle);
-                    //是否需要抄送
+
                     if ($businessAdr) {
                         $message->cc($businessAdr);
                     }
@@ -150,5 +149,4 @@ class SwooleServer extends Command
             return $data;
         }
     }
-
 }

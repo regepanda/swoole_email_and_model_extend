@@ -5,6 +5,7 @@ namespace App\Console;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use App\Console\Commands\SwooleServer;
+use App\Console\Commands\SwooleMysql;
 
 class Kernel extends ConsoleKernel
 {
@@ -15,7 +16,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         // Commands\Inspire::class,
-        SwooleServer::class
+        SwooleServer::class,
+        SwooleMysql::class
     ];
 
     /**

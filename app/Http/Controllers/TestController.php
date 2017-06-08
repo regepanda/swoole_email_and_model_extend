@@ -17,7 +17,7 @@ class TestController extends Controller
         $data["businessAdr"] = null;
         $data["userAdr"] = "1174495058@qq.com";
         $data["recvTitle"] = "swoole";
-        $data["recvContent"] = "«Îƒ„»•¥Û±„";
+        $data["recvContent"] = "lizuoqiang";
         $data["template"] = [];
 
         $swooleClient = new SwooleClient();

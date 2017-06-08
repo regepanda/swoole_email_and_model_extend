@@ -77,7 +77,7 @@ class SwooleServer extends Command
         $this->serv = new \swoole_server("0.0.0.0", 9501);
         $this->serv->set(
             array(
-                'work_num' => 4,
+                'worker_num' => 4,
                 'daemonize' => false,
                 'max_request' => 10000,
                 'dispatch_mode' => 2,
@@ -105,8 +105,7 @@ class SwooleServer extends Command
 
     public function onReceive(\swoole_server $server, $descriptors, $fromId, $data)
     {
-        dump($data);
-        die;
+        $data = json_decode($data, true);
         $sent = $this->send($data);
         if (!is_array($sent)) {
             dump("success");

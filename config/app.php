@@ -161,6 +161,7 @@ return [
          */
         App\Providers\TestServiceProvider::class,
         App\Providers\ExtendServiceProvider::class,
+        Encore\Admin\Providers\AdminServiceProvider::class
 
     ],
 

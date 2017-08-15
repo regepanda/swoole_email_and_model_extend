@@ -48,9 +48,9 @@ return [
             'root' => storage_path('app'),
         ],
 
-        'public' => [
+        'admin' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            'root' => public_path(),
             'visibility' => 'public',
         ],
 

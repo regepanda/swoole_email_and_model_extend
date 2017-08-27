@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\Admin\Model\Image;
+use App\Admin\Model\Tag;
 
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -11,7 +11,7 @@ use Encore\Admin\Layout\Content;
 use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\ModelForm;
 
-class ImageController extends Controller
+class TagController extends Controller
 {
     use ModelForm;
 
@@ -26,6 +26,7 @@ class ImageController extends Controller
 
             $content->header('header');
             $content->description('description');
+
             $content->body($this->grid());
         });
     }
@@ -34,7 +35,6 @@ class ImageController extends Controller
      * Edit interface.
      *
      * @param $id
-     *
      * @return Content
      */
     public function edit($id)
@@ -71,13 +71,25 @@ class ImageController extends Controller
      */
     protected function grid()
     {
-        return Admin::grid(Image::class, function (Grid $grid) {
+        return Admin::grid(Tag::class, function (Grid $grid) {
 
             $grid->id('ID')->sortable();
 
-            $grid->name()->editable();
+            $grid->name()->sortable();
 
-            $grid->url()->image('http://swoole.com', 100, 100);
+            $grid->options()->editable();
+
+            $states = [
+                'on' => ['text' => 'YES'],
+                'off' => ['text' => 'NO'],
+            ];
+
+            $grid->column('switch_group')->switchGroup([
+                'recommend' => '推荐', 'hot' => '热门', 'new' => '最新'
+            ], $states);
+
+            $grid->created_at();
+            $grid->updated_at();
         });
     }
 
@@ -88,23 +100,20 @@ class ImageController extends Controller
      */
     protected function form()
     {
-        return Admin::form(Image::class, function (Form $form) {
+        return Admin::form(Tag::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->text('name', 'name');
-//            $form->text('url', 'url');
 
+            $form->text('name')->rules('required');
 
-            // 修改上传目录
-            $form->image('url')->move('upload/image');
+            $form->textarea('options')->rules('required');
 
-            // 使用随机生成文件名 (md5(uniqid()).extension)
-//            $form->image('picture')->uniqueName();
+            $form->switch('recommend');
+            $form->switch('hot');
+            $form->switch('new');
 
-            // 自定义文件名
-//            $form->image('picture')->name(function ($file) {
-//                return 'test.' . $file->guessExtension();
-//            });
+            $form->display('created_at', 'Created At');
+            $form->display('updated_at', 'Updated At');
         });
     }
 }

@@ -2,47 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdb033b8-cfcc-474e-aa3d-987ca737eb70" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataStructureController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Library/LNode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Library/LinearTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Library/SingleLinkedList.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Controllers/ImageController.php" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ImageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Controllers/TagController.php" afterPath="$PROJECT_DIR$/app/Admin/Controllers/TagController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Model/Image.php" afterPath="$PROJECT_DIR$/app/Admin/Model/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Model/Tag.php" afterPath="$PROJECT_DIR$/app/Admin/Model/Tag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Model/User.php" afterPath="$PROJECT_DIR$/app/Admin/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/routes.php" afterPath="$PROJECT_DIR$/app/Admin/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Commands/SwooleServer.php" afterPath="$PROJECT_DIR$/app/Console/Commands/SwooleServer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/admin.php" afterPath="$PROJECT_DIR$/config/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/css/fileinput.min.css" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/css/fileinput.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput.min.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_LANG.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_LANG.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_bg.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_cz.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_cz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_da.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_de.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_el.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_es.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fa.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fi.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fr.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_hu.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_it.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_nl.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pl.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pt-BR.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pt.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_ro.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_ru.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_sk.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_th.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_tr.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_uk.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_zh_CN.js" afterPath="$PROJECT_DIR$/public/packages/admin/bootstrap-fileinput/js/fileinput_locale_zh_CN.js" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,17 +27,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="143">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LNode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Library/LNode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleLinkedList.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Library/SingleLinkedList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="838">
+              <caret line="188" column="13" lean-forward="false" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataStructureController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataStructureController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#123#151#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getInsertElement</find>
+      <find>$oll</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +103,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/SwooleServer.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Image.php" />
@@ -114,12 +116,24 @@
         <option value="$PROJECT_DIR$/app/Admin/Model/Tag.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/TagController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Library/LinearTable.php" />
+        <option value="$PROJECT_DIR$/app/Library/LNode.php" />
+        <option value="$PROJECT_DIR$/app/Library/SingleLinkedList.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DataStructureController.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -140,7 +154,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -156,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +315,8 @@
       <workItem from="1502433660849" duration="3434000" />
       <workItem from="1502777461263" duration="30000" />
       <workItem from="1502778708338" duration="12601000" />
-      <workItem from="1504488246639" duration="265000" />
+      <workItem from="1504488246639" duration="15243000" />
+      <workItem from="1504517478206" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="2017/6/8  9:36&#10;update emaill send">
       <created>1496885807401</created>
@@ -329,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502787425601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2017/6/8  9:36&#10;                  update emaill send">
+      <created>1504488538207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504488538207</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16330000" />
+    <option name="totallyTimeSpent" value="32588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,17 +373,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -390,6 +414,11 @@
     <MESSAGE value="2017/6/8  9:36&#10;                  update emaill send" />
     <option name="LAST_COMMIT_MESSAGE" value="2017/6/8  9:36&#10;                  update emaill send" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="217" height="285" key="Git.Branch.Popup" />
+    <state width="217" height="285" key="Git.Branch.Popup/1920.1080/1920.1080" />
+    <state width="217" height="285" key="Git.Branch.Popup@1920.1080" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -397,41 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -627,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2015">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#41#67#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,12 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1502538379956" expanded="true" signature="270:403" ph="{...}" />
-            <marker date="1502538379956" expanded="true" signature="314:394" ph="..." />
-            <marker date="1502538379956" expanded="true" signature="458:598" ph="{...}" />
-            <marker date="1502538379956" expanded="true" signature="503:559" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,10 +728,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/LinearTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/LNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataStructureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#123#151#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/SingleLinkedList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="188" column="13" lean-forward="false" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
           <folding />
         </state>
       </provider>

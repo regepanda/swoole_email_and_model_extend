@@ -15,10 +15,9 @@ class DataStructureController extends Controller
 {
     public function linearTable()
     {
-        $oll = new SingleLinkedList();
-        $arr = [1, 2, 3, 4, 5, 6];
-//        $oll->getHeadCreateSLL($arr);
-        $oll->getTailCreateSLL($arr);
-        dump($oll->mNext);
+        $foo = 'bar';
+        global $foo;
+//        unset($foo);
+        echo $foo;
     }
 }

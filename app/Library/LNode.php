@@ -8,15 +8,23 @@
 
 namespace App\Library;
 
+use App\Http\Controllers\PlController;
 
 class LNode
 {
-    public $mElem;
-    public $mNext;
+//    public $mElem;
+//    public $mNext;
+//
+//    public function __construct()
+//    {
+//        $this->mElem = null;
+//        $this->mNext = null;
+//    }
 
-    public function __construct()
+    public static function test()
     {
-        $this->mElem = null;
-        $this->mNext = null;
+        $pl = new PlController();
+        $pl->status = false;
+        dump($pl->status);
     }
 }

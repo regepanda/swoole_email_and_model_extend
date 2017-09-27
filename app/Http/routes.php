@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 Route::get("test","TestController@test");
 Route::get("linearTable","DataStructureController@linearTable");
+
+
+Route::get("test1","PlController@test1");
